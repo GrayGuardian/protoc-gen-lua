@@ -1,5 +1,7 @@
 syntax = "proto2";
 
+package hello;
+
 message Phone {
     required string name = 1;
     optional int64 phonenumber = 2;

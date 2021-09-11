@@ -16,7 +16,7 @@ localTable.PERSON_CONTACTS_FIELD = protobuf.FieldDescriptor()
 
 
 localTable.PHONE_NAME_FIELD.name = "name"
-localTable.PHONE_NAME_FIELD.full_name = ".Phone.name"
+localTable.PHONE_NAME_FIELD.full_name = ".hello.Phone.name"
 localTable.PHONE_NAME_FIELD.number = 1
 localTable.PHONE_NAME_FIELD.index = 0
 localTable.PHONE_NAME_FIELD.label = 2
@@ -26,7 +26,7 @@ localTable.PHONE_NAME_FIELD.type = 9
 localTable.PHONE_NAME_FIELD.cpp_type = 9
 
 localTable.PHONE_PHONENUMBER_FIELD.name = "phonenumber"
-localTable.PHONE_PHONENUMBER_FIELD.full_name = ".Phone.phonenumber"
+localTable.PHONE_PHONENUMBER_FIELD.full_name = ".hello.Phone.phonenumber"
 localTable.PHONE_PHONENUMBER_FIELD.number = 2
 localTable.PHONE_PHONENUMBER_FIELD.index = 1
 localTable.PHONE_PHONENUMBER_FIELD.label = 1
@@ -36,14 +36,14 @@ localTable.PHONE_PHONENUMBER_FIELD.type = 3
 localTable.PHONE_PHONENUMBER_FIELD.cpp_type = 2
 
 PHONE.name = "Phone"
-PHONE.full_name = ".Phone"
+PHONE.full_name = ".hello.Phone"
 PHONE.nested_types = {}
 PHONE.enum_types = {}
 PHONE.fields = {localTable.PHONE_NAME_FIELD, localTable.PHONE_PHONENUMBER_FIELD}
 PHONE.is_extendable = false
 PHONE.extensions = {}
 localTable.PERSON_NAME_FIELD.name = "name"
-localTable.PERSON_NAME_FIELD.full_name = ".Person.name"
+localTable.PERSON_NAME_FIELD.full_name = ".hello.Person.name"
 localTable.PERSON_NAME_FIELD.number = 1
 localTable.PERSON_NAME_FIELD.index = 0
 localTable.PERSON_NAME_FIELD.label = 2
@@ -53,7 +53,7 @@ localTable.PERSON_NAME_FIELD.type = 9
 localTable.PERSON_NAME_FIELD.cpp_type = 9
 
 localTable.PERSON_AGE_FIELD.name = "age"
-localTable.PERSON_AGE_FIELD.full_name = ".Person.age"
+localTable.PERSON_AGE_FIELD.full_name = ".hello.Person.age"
 localTable.PERSON_AGE_FIELD.number = 2
 localTable.PERSON_AGE_FIELD.index = 1
 localTable.PERSON_AGE_FIELD.label = 2
@@ -63,7 +63,7 @@ localTable.PERSON_AGE_FIELD.type = 5
 localTable.PERSON_AGE_FIELD.cpp_type = 1
 
 localTable.PERSON_ADDRESS_FIELD.name = "address"
-localTable.PERSON_ADDRESS_FIELD.full_name = ".Person.address"
+localTable.PERSON_ADDRESS_FIELD.full_name = ".hello.Person.address"
 localTable.PERSON_ADDRESS_FIELD.number = 3
 localTable.PERSON_ADDRESS_FIELD.index = 2
 localTable.PERSON_ADDRESS_FIELD.label = 1
@@ -73,7 +73,7 @@ localTable.PERSON_ADDRESS_FIELD.type = 9
 localTable.PERSON_ADDRESS_FIELD.cpp_type = 9
 
 localTable.PERSON_CONTACTS_FIELD.name = "contacts"
-localTable.PERSON_CONTACTS_FIELD.full_name = ".Person.contacts"
+localTable.PERSON_CONTACTS_FIELD.full_name = ".hello.Person.contacts"
 localTable.PERSON_CONTACTS_FIELD.number = 4
 localTable.PERSON_CONTACTS_FIELD.index = 3
 localTable.PERSON_CONTACTS_FIELD.label = 3
@@ -84,7 +84,7 @@ localTable.PERSON_CONTACTS_FIELD.type = 11
 localTable.PERSON_CONTACTS_FIELD.cpp_type = 10
 
 PERSON.name = "Person"
-PERSON.full_name = ".Person"
+PERSON.full_name = ".hello.Person"
 PERSON.nested_types = {}
 PERSON.enum_types = {}
 PERSON.fields = {localTable.PERSON_NAME_FIELD, localTable.PERSON_AGE_FIELD, localTable.PERSON_ADDRESS_FIELD, localTable.PERSON_CONTACTS_FIELD}
