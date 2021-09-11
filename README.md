@@ -11,7 +11,7 @@
 
 2. 命令行安装protobuf
 
-        python ./protobuf-python/setup.py install
+    > python ./protobuf-python/setup.py install
 
 ## 运行测试
 
