@@ -15,7 +15,7 @@
 
 ## 运行测试
 
-    ./protobuf-lua/protoc.exe --plugin=protoc-gen-lua="./protobuf-lua/plugin/protoc-gen-lua5_3.bat"  --lua_out=[lua文件输出路径] -I [protobuf文件目录] [protobuf文件名]
+    [库项目目录]/protobuf-lua/protoc.exe --plugin=protoc-gen-lua="[库项目目录]/protobuf-lua/plugin/protoc-gen-lua5_3.bat"  --lua_out=[lua文件输出路径] -I [protobuf文件目录] [protobuf文件路径]
 
 ## 内置
 
