@@ -14,9 +14,9 @@
     > python ./protobuf-python/setup.py install
 
 ## 运行测试
-1. 通过项目工程的**build.bat**快速运行
+* 通过项目工程的**build.bat**快速运行
 
-2. 输入命令行
+* 输入命令行
 
         [库项目目录]\protobuf-lua\protoc.exe --plugin=protoc-gen-lua="[库项目目录]\protobuf-lua\plugin\protoc-gen-lua5_3.bat"  --lua_out=[lua文件输出目录] -I [protobuf依赖文件目录] [protobuf文件路径]
 
